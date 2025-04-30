@@ -29,6 +29,8 @@ Parameters:
     Type: String
     Default: 10.0.64.0/19
 
+
+
   PrivateSubnet2CIDR:
     Description: IP address for private subnet 2
     Type: String
@@ -137,7 +139,7 @@ Resources:
       Tags:
         - Key: Name
           Value: PublicRouteTable
-
+#### take this off 
   DefaultPublicRoute:
     Type: AWS::EC2::Route
     DependsOn: InternetGatewayAttachment
