@@ -228,5 +228,5 @@ Outputs:
     Value: !Ref PrivateSubnet1
 
   PrivateSubnet2:
-    Description: A reference to the private subnet in the 2nd Availability Zone
+    Description: A reference to the private subnet in the 2nd Availability Zon
     Value: !Ref PrivateSubnet2
